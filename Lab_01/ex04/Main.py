@@ -29,7 +29,7 @@ while True:
             print("\nSanh sach sinh vien trong!")
     elif key == 3:
         if qlsv.soLuongSinhVien() > 0:
-            print("\n3. Xoa sinh vien.")
+            print("\n3. Xoa sinh vien.")1
             print("\nNhap ID: ")
             ID = int(input())
             if qlsv.deleteById(ID):

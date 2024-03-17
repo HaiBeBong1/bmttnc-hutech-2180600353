@@ -53,7 +53,7 @@ class QuanLySinhVien:
         return None
 
     def findByName(self, keyword):
-        return [sv for sv in self.listSinhVien if keyword.upper() in sv._name.upper()]
+        return [sv for sv in self.listSinhVien if keyword.lower() in sv._name.lower()]
 
     def deleteById(self, ID):
         sv = self.findByID(ID)
